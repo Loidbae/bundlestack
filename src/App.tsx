@@ -1,9 +1,11 @@
+import { Logo } from "./components/logo"
+
 function App() {
-  return (
-    <div>
-      <h1>Bundlestack</h1>
-    </div>
-  )
+    return (
+        <>
+            <Logo/>
+        </>
+    )
 }
 
 export default App
